@@ -1,7 +1,6 @@
 {
   "name": "week_6",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -21,5 +20,6 @@
   },
   "dependencies": {
     "request": "^2.88.2"
-  }
+  },
+  "description": ""
 }
