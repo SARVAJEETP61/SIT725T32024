@@ -7,7 +7,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "mocha test/test.js",
+    "test": "NODE_ENV=test mocha test/test.js",
     "start": "node server.js"
   },
   "keywords": [],
@@ -19,7 +19,8 @@
     "mocha": "^11.0.1"
   },
   "dependencies": {
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
   },
   "description": ""
 }

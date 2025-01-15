@@ -133,7 +133,7 @@
                 document.getElementById('coffeeForm').reset();
                 const coffees = await response.json();
                 const coffeeList = document.getElementById('coffeeList');
-                coffeeList.innerHTML = ''; // Clear existing data
+                coffeeList.innerHTML = '';
                 coffees.forEach(coffee => {
                     coffeeList.innerHTML += `
                         <div class="card">
